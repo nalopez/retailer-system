@@ -1,0 +1,15 @@
+[2019-11-11 06:37:43] local.ERROR: ErrorException: file_put_contents(/var/www/bootstrap/cache/services.php): failed to open stream: Permission denied in /var/www/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:111
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/vendor...', 111, Array)
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(111): file_put_contents('/var/www/bootst...', '<?php return ar...', 0)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(189): Illuminate\Filesystem\Filesystem->put('/var/www/bootst...', '<?php return ar...')
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(540): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /var/www/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main}  
