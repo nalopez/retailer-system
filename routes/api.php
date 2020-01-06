@@ -13,6 +13,23 @@ use Illuminate\Http\Request;
 |
 */
 
+
+Route::group(['middleware' => ['web']], function () {
+    Route::post('/verifyLogin', 'Auth\LoginController@verifyLogin');
+});
+
+/*
 Route::get('/user', function (Request $request) {
     return $request->user();
-})->middleware('auth:api');
+})->middleware('auth:api');*/
+
+//Route::resource('verifyLogin', 'LoginController');
+
+
+
+/*
+Route::get('/usercontroller/path',[
+   'middleware' => 'First',
+   'uses' => 'UserController@showPath'
+]);
+*/

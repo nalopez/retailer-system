@@ -1,0 +1,71 @@
+.login-block {
+	height: 500px;
+	margin: 0 auto;
+	width: 650px;
+
+	.login-form-block {
+		background-color: white;
+		float: left;
+		height: 500px;
+		width: 63%;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.register-block {
+		background-image: url("../images/login-register-v2.jpg");
+		background-position: center;
+		float: left;
+		min-height: 100%;
+		width: 30%;
+		padding: 10px;
+		text-align: center;
+
+		#register-block-header {
+			height: 95px;
+			color: white;
+			font-size: 40px;
+			line-height: 95px;
+			vertical-align: middle;
+		}
+
+		#register-block-button {
+			background-color: white;
+			border: 3px solid #F59438;
+			border-radius: 10px;
+			color: black;
+			height: 30px;
+			font-size: 30px;
+			padding: 5px;
+			position: relative;
+			top: 300px;
+		}
+	}
+
+	.login-list {
+		list-style-type: none;
+		padding-left: 0;
+
+		li:nth-child(even) {
+			margin-bottom: 20px; 
+		}
+
+		input[type=text],
+		input[type=email],
+		input[type=password] {
+			border: 0;
+	  		outline: 0;
+	  		background: transparent;
+	  		border-bottom: 1px solid black;
+		}
+
+		button[type=submit] {
+			background-color: white;
+			border: 2px solid #F59438;
+			border-radius: 10px;
+			font-size: 18px;
+			width: 100px;
+			padding: 5px;
+		}
+	}
+}

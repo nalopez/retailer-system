@@ -1,0 +1,39 @@
+body {
+	font: 1.2em "Avantgarde", sans-serif;
+}
+
+#header {
+	border: 1px solid #1D4D90;
+	background-color: #1D4D90;
+	color: white;
+	padding: 10px;
+	height: 5%;
+}
+
+#main-content {
+	background-color: #EDEDED;
+	position: relative;
+  	min-height: 88%;
+  	padding: 10px 0;
+}
+
+#footer {
+	border: 1px solid #1D4D90;
+	background-color: #1D4D90;
+	color: white;
+	padding: 10px;
+	position: relative;
+  	height: 2%;
+}
+
+.success-message {
+	background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.failure-message {
+	background-color: red;
+    color: white;
+    padding: 10px;
+}

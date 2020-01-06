@@ -14,6 +14,14 @@ require('laravel-elixir-vue-2');
  */
 
 elixir(mix => {
-    mix.sass('app.scss')
+    mix.sass([
+    		'custom/base/base.scss',
+    		'custom/login.scss'
+    	], 'resources/assets/css/compiled/app.css')
+    	.styles([
+    		'resources/assets/css/compiled/app.css',
+    		'resources/assets/css/lib/clearfix.css'
+    		
+    	], 'public/css/app.css')
        .webpack('app.js');
 });
