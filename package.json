@@ -14,7 +14,7 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "gulp": "^3.9.1",
-    "jquery": "^3.1.0",
+    "jquery": "^3.5.0",
     "laravel-elixir": "^6.0.0-18",
     "laravel-elixir-vue-2": "^0.2.0",
     "laravel-elixir-webpack-official": "^1.0.2",
