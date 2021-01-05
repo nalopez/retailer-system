@@ -5,7 +5,7 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
-    "axios": "^0.18",
+    "axios": "^0.21",
     "bootstrap-sass": "^3.3.7",
     "grunt": "^1.0.4",
     "grunt-concat-css": "^0.3.2",
