@@ -7,7 +7,7 @@
   "devDependencies": {
     "axios": "^0.18",
     "bootstrap-sass": "^3.3.7",
-    "grunt": "^1.0.4",
+    "grunt": "^1.5.2",
     "grunt-concat-css": "^0.3.2",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-cssmin": "^3.0.0",
