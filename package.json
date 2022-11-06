@@ -13,7 +13,7 @@
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "jquery": "^3.1.0",
     "laravel-elixir": "^6.0.0-18",
     "laravel-elixir-vue-2": "^0.2.0",
